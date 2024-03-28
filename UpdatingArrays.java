@@ -13,6 +13,8 @@ public class UpdatingArrays {
     for(int i=0;i<menu.length;i++){
         newMenu[i]=menu[i];
     }
+    newMenu[3]="coolade";
+    newMenu[4]="milk";
     System.out.println(Arrays.toString(newMenu));
     }
     
